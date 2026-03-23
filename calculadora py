@@ -1,0 +1,13 @@
+#Calculadora que recebe dois numeros e me entrega os resultados de
+#soma, subtração, divisão, multiplicação, expoente e resto
+nota1 = float(input("Digite o primeiro numero: "))
+nota2 = float(input("Digite o segundo numero: "))
+soma = nota1+nota2
+subtração = nota1-nota2
+expoente = nota1**nota2
+
+
+print(f"{nota1}+{nota2}={(nota1+nota2)}")
+print(f"{nota1}+{nota2}={soma}")
+print(f"{nota1}**{nota2} ={expoente})
+      

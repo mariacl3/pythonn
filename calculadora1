@@ -1,0 +1,81 @@
+"""
+nota1 = float(input("Digite o primeiro numero: "))
+nota2 = float(input("Digite o segundo numero: "))
+
+soma = nota1+nota2
+subtracao = nota1-nota2
+divisao = nota1/nota2
+multiplicacao = nota1*nota2
+resto = nota1%nota2
+expoente = nota1**nota2
+
+print(f"(nota1)+(nota2)={(nota1+nota2)}")
+
+print(f"{nota1}+{nota2} = {(soma)}")
+print(f"{nota1}-{nota2} = {(subtracao)}")
+print(f"{nota1}/{nota2} = {(divisao)}")
+print(f"{nota1}*{nota2} = {(multiplicacao)}")
+print(f"{nota1}%{nota2} = {(resto)}")
+print(f"{nota1}**{nota2} = {(expoente)}")
+
+"""
+
+# > maior
+# < menor
+# = atribuição
+# == comparativo
+# ! ou != diferença
+# >= maior igual
+# <= menor igual
+
+"""
+if(condição verdade):
+   Bloco de código identado pertencente ao if
+elif(condição verdade):
+   Bloco de código identado pertencente ao elif
+else:
+   Bloco de código indentado pertencente ao else
+"""
+
+opcao = int(input("Digite o numero de opção desejada\n"))\
+"1. Adição\n"\
+"2. Subtração\n"\
+"3. Divisão\n"\
+"4. Mutiplicação\n"\
+"5. Restante da divisão\n"\
+"6. Expoente"
+"---->"
+
+if (opcao == 1):
+    nota1 = float(input("Digite o primeiro número: "))
+    nota2 = float(input("Digite o segundo número:"))
+    print(f"{nota1}+{nota2}={(nota1+nota2)}")
+          
+
+elif (opçao == 2):
+    nota1 = float(input("Digite o primeiro número: "))
+    nota2 = float(input("Digite o segundo número:"))
+    print(f"{nota1}-{nota2}={(nota1-nota2)}")
+
+
+elif (opçao == 3):
+    nota1 = float(input("Digite o primeiro número: "))
+    nota2 = float(input("Digite o segundo número:"))
+    print(f"{nota1}/{nota2}={(nota1/nota2)}")
+          
+elif (opçao == 4):
+    nota1 = float(input("Digite o primeiro número: "))
+    nota2 = float(input("Digite o segundo número:"))
+    print(f"{nota1}*{nota2}={(nota1*nota2)}")
+          
+elif (opçao == 5):
+    nota1 = float(input("Digite o primeiro número: "))
+    nota2 = float(input("Digite o segundo número:"))
+    print(f"{nota1}%{nota2}={(nota1%nota2)}")  
+
+elif (opçao == 6):
+    nota1 = float(input("Digite o primeiro número: "))
+    nota2 = float(input("Digite o segundo número:"))
+    print(f"{nota1}*{nota2}={(nota1*nota2)}")      
+else:
+    print("Você digitou uma opção invalido!!!")
